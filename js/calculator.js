@@ -5,7 +5,7 @@ const OPERATION = {
     division: '/'
 };
 
-function calculate(a, b, operation){
+function calculate({a, b, operation}){
 
     let result = null;
 
